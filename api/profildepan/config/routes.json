@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/profildepan",
+      "handler": "profildepan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/profildepan",
+      "handler": "profildepan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/profildepan",
+      "handler": "profildepan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

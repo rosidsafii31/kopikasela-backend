@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "profildepans",
+  "info": {
+    "name": "Profildepan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headlinejudul": {
+      "type": "string"
+    },
+    "contenisi": {
+      "type": "string"
+    },
+    "gambarsamping": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

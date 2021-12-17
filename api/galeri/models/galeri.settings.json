@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galeris",
+  "info": {
+    "name": "Galeri"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "galeri": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "category": {
+      "model": "category",
+      "via": "galeri"
+    }
+  }
+}

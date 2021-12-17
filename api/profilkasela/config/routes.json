@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/profilkasela",
+      "handler": "profilkasela.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/profilkasela",
+      "handler": "profilkasela.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/profilkasela",
+      "handler": "profilkasela.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
