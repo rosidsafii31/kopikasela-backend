@@ -28,7 +28,7 @@
       "type": "string"
     },
     "deskripsi": {
-      "type": "string"
+      "type": "text"
     },
     "beratproduk": {
       "type": "string"
