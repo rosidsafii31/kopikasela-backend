@@ -2,15 +2,39 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/profildepan",
+      "path": "/profildepans",
       "handler": "profildepan.find",
       "config": {
         "policies": []
       }
     },
     {
+      "method": "GET",
+      "path": "/profildepans/count",
+      "handler": "profildepan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/profildepans/:id",
+      "handler": "profildepan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/profildepans",
+      "handler": "profildepan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
-      "path": "/profildepan",
+      "path": "/profildepans/:id",
       "handler": "profildepan.update",
       "config": {
         "policies": []
@@ -18,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/profildepan",
+      "path": "/profildepans/:id",
       "handler": "profildepan.delete",
       "config": {
         "policies": []

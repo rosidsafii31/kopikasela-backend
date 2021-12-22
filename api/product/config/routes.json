@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/profilkaselas",
-      "handler": "profilkasela.find",
+      "path": "/products",
+      "handler": "product.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/profilkaselas/count",
-      "handler": "profilkasela.count",
+      "path": "/products/count",
+      "handler": "product.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/profilkaselas/:id",
-      "handler": "profilkasela.findOne",
+      "path": "/products/:id",
+      "handler": "product.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/profilkaselas",
-      "handler": "profilkasela.create",
+      "path": "/products",
+      "handler": "product.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/profilkaselas/:id",
-      "handler": "profilkasela.update",
+      "path": "/products/:id",
+      "handler": "product.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/profilkaselas/:id",
-      "handler": "profilkasela.delete",
+      "path": "/products/:id",
+      "handler": "product.delete",
       "config": {
         "policies": []
       }

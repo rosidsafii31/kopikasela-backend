@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "galeris",
+  "collectionName": "products",
   "info": {
-    "name": "galeri",
+    "name": "Product",
     "description": ""
   },
   "options": {
@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "galeri": {
+    "gambarproduk": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -24,15 +24,25 @@
       "required": false,
       "pluginOptions": {}
     },
+    "judulproduk": {
+      "type": "string"
+    },
+    "harga": {
+      "type": "biginteger"
+    },
     "featured": {
       "type": "boolean",
       "default": false
     },
-    "headline": {
+    "slug": {
+      "type": "uid",
+      "targetField": "judulproduk"
+    },
+    "berat": {
       "type": "string"
     },
-    "category": {
-      "model": "category"
+    "deskripsi": {
+      "type": "richtext"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "profildepans",
   "info": {
-    "name": "Profildepan",
+    "name": "profildepan",
     "description": ""
   },
   "options": {
@@ -27,7 +27,7 @@
     "headlinejudul": {
       "type": "string"
     },
-    "contenisi": {
+    "contentisi": {
       "type": "text"
     },
     "gambarsamping": {
@@ -43,8 +43,7 @@
       "pluginOptions": {}
     },
     "featured": {
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     }
   }
 }

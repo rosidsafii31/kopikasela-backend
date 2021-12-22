@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "artikels",
   "info": {
-    "name": "Artikel"
+    "name": "artikel",
+    "description": ""
   },
   "options": {
     "increments": true,
