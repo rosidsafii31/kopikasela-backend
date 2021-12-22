@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "coffeekasela",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "knex": "0.21.18",
-    "mysql": "2.18.1",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
+    "sqlite3": "5.0.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
@@ -30,7 +30,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "540962b5-1c3d-4eed-b578-132b1d7b90dd"
+    "uuid": "b2bf1f40-2024-4a56-b810-8493190c63c0"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",

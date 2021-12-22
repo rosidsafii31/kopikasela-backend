@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "profilkaselas",
   "info": {
-    "name": "profilkasela",
+    "name": "Profilkasela",
     "description": ""
   },
   "options": {
@@ -31,7 +31,8 @@
       "type": "richtext"
     },
     "featured": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "thumbnail1": {
       "model": "file",

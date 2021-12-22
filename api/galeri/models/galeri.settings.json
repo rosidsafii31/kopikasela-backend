@@ -12,6 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
     "galeri": {
       "model": "file",
       "via": "related",
@@ -23,13 +30,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "featured": {
-      "type": "boolean",
-      "default": false
-    },
-    "headline": {
-      "type": "string"
     },
     "category": {
       "model": "category"

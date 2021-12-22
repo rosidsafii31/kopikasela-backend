@@ -2,39 +2,15 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/profilkaselas",
+      "path": "/profilkasela",
       "handler": "profilkasela.find",
       "config": {
         "policies": []
       }
     },
     {
-      "method": "GET",
-      "path": "/profilkaselas/count",
-      "handler": "profilkasela.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/profilkaselas/:id",
-      "handler": "profilkasela.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/profilkaselas",
-      "handler": "profilkasela.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
       "method": "PUT",
-      "path": "/profilkaselas/:id",
+      "path": "/profilkasela",
       "handler": "profilkasela.update",
       "config": {
         "policies": []
@@ -42,7 +18,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/profilkaselas/:id",
+      "path": "/profilkasela",
       "handler": "profilkasela.delete",
       "config": {
         "policies": []
